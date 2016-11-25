@@ -1,0 +1,72 @@
+/* ==================
+custom style sheet
+Project: space
+version:1.0
+=================
+index
+1.base 
+2.
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,600,700,800');
+body {
+    font-family: 'Open Sans', sans-serif;
+    text-rendering: optimizeLegibility;
+}
+
+.nopad {
+    padding: 0;
+}
+
+.nomargin {
+    margin: 0;
+}
+
+
+/*================
+login page
+=================*/
+
+.login .profile-image {
+    padding: 20px 0;
+    text-align: center;
+}
+
+
+/* dashboard page*/
+
+.space-options {
+    padding: 15px;
+    cursor: pointer;
+    color: white;
+    background: black;
+    position: fixed;
+    transform: rotate(90deg);
+    margin-left: -125px;
+    margin-top: 36px;
+    z-index: 2
+}
+
+.space-option-menu {
+    position: absolute;
+    top: 11.5%;
+    background: black;
+    left: 4%;
+    width: 10%;
+    z-index: 2;
+    min-height: 120px;
+    padding: 10px
+}
+
+.space-option-menu li.dropdown {
+    margin-bottom: 10px;
+}
+
+.space-option-menu li.dropdown a.dropdown-toggle {
+    color: white;
+    cursor: pointer;
+}
+
+.h-menu {
+    margin-bottom: 15px;
+}
